@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Pascal Triangle"""
+""" Pascal Triangle """
 
 
 def pascal_triangle(n):
-    """the function"""
+    """ The function """
     if n <=0:
         return []
     if n == 1:
