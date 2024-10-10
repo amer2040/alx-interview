@@ -10,7 +10,7 @@ def canUnlockAll(boxes):
     keys = [0]  # the keys we have started from 0
 
     while keys:
-        key = keys.pop(0)  #  take key from the keys list
+        key = keys.pop(0)  # take key from the keys list
         for new_key in boxes[key]:  # we get the keys from the opend box
             if new_key < n and not opened[new_key]:  # if the new box not opend
                 opened[new_key] = True  # we open it
